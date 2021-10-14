@@ -11,23 +11,28 @@ body {}
 
 
 /* HOME PAGE CODE PLEASE DON'T TOUCH*************/
-#homepage div.navbar ul li{
-    float: left;
-    display:inline-block;
-    margin: 15px;
+* {
+    box-sizing: border-box;
+  }
+  
+  
+#homepage div.navbar a {
+    margin-top: 20px;
+    height: 40px;
+    width: 100px;
+    display: block;
+    color: black;
     text-align: center;
-    list-style-type:none;
+    padding: 50px 56px;
+    text-decoration: none;
     
-   
-   
-}
+  }
+
 #homepage div.navbar {
-    border: 2px solid black;
-    margin: 0%;
     height: 80px;
     width: 100%;
     background-color: #D0B8AC;
-    opacity: 0.7;
+    
    
 }
 #homepage div.navbar a:link, a:visited {
@@ -114,7 +119,7 @@ body {}
   display: flex;
   justify-content: left;
   align-items: center;
-  margin-right: 80px;
+  margin-right: 50px;
   margin-left: 60px;
 }   
 #homepage div.part4{
@@ -145,6 +150,7 @@ body {}
 #homepage div.part3 .container {
     position: relative;
     width: 50%;
+   
   }
   
   #homepage div.part3 .image {
@@ -177,10 +183,10 @@ body {}
     opacity: 1;
   }
   #homepage div.part3 .text {
-    background-color: #D0B8AC;
+    text-decoration: none;
     color:black;
     font-size: 30px;
-    padding: 16px 32px;
+    margin-right: 110px;
     font-weight: bold;
     text-align: center;
   }
