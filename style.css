@@ -2,6 +2,7 @@ body {
 }
 
 /* HOME PAGE CODE PLEASE DON'T TOUCH*************/
+<<<<<<< HEAD
 #homepage div.navbar ul li {
   float: left;
   display: inline-block;
@@ -22,6 +23,38 @@ a:visited {
   text-decoration: none;
   color: black;
   padding: 10px;
+=======
+* {
+    box-sizing: border-box;
+  }
+  
+  
+#homepage div.navbar a {
+    margin-top: 20px;
+    height: 40px;
+    width: 100px;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 50px 56px;
+    text-decoration: none;
+    
+  }
+
+#homepage div.navbar {
+    height: 80px;
+    width: 100%;
+    background-color: #D0B8AC;
+    
+   
+}
+#homepage div.navbar a:link, a:visited {
+    
+    text-decoration: none;
+    color:black;
+    padding: 10px;
+
+>>>>>>> d2f1091add02ce2a32559984d643be2ef5c57ee9
 }
 
 #homepage div.navbar a:hover,
@@ -92,7 +125,7 @@ a:active {
   display: flex;
   justify-content: left;
   align-items: center;
-  margin-right: 80px;
+  margin-right: 50px;
   margin-left: 60px;
 }
 #homepage div.part4 {
@@ -121,6 +154,7 @@ a:active {
 }
 
 #homepage div.part3 .container {
+<<<<<<< HEAD
   position: relative;
   width: 50%;
 }
@@ -162,3 +196,47 @@ a:active {
   font-weight: bold;
   text-align: center;
 }
+=======
+    position: relative;
+    width: 50%;
+   
+  }
+  
+  #homepage div.part3 .image {
+    opacity: 1;
+   
+    width: 400px;
+    height: 300px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  #homepage div.part3 .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  
+  #homepage div.part3 .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  #homepage div.part3 .container:hover .middle {
+    opacity: 1;
+  }
+  #homepage div.part3 .text {
+    text-decoration: none;
+    color:black;
+    font-size: 30px;
+    margin-right: 110px;
+    font-weight: bold;
+    text-align: center;
+  }
+>>>>>>> d2f1091add02ce2a32559984d643be2ef5c57ee9
