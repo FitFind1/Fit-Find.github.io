@@ -1,114 +1,92 @@
-body {}
-
-
-
-
-
-
-
-
-
-
+body {
+}
 
 /* HOME PAGE CODE PLEASE DON'T TOUCH*************/
-#homepage div.navbar ul li{
-    float: left;
-    display:inline-block;
-    margin: 15px;
-    text-align: center;
-    list-style-type:none;
-    
-   
-   
+#homepage div.navbar ul li {
+  float: left;
+  display: inline-block;
+  margin: 15px;
+  text-align: center;
+  list-style-type: none;
 }
 #homepage div.navbar {
-    border: 2px solid black;
-    margin: 0%;
-    height: 80px;
-    width: 100%;
-    background-color: #D0B8AC;
-    opacity: 0.7;
-   
+  border: 2px solid black;
+  margin: 0%;
+  height: 80px;
+  width: 100%;
+  background-color: #d0b8ac;
+  opacity: 0.7;
 }
-#homepage div.navbar a:link, a:visited {
-    
-    text-decoration: none;
-    color:black;
-    padding: 10px;
-
+#homepage div.navbar a:link,
+a:visited {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
 }
 
-
-#homepage div.navbar a:hover, a:active {
-    
-    text-decoration: none;
-    color: black;
-    border-bottom: solid 2px #041004;
-    text-shadow: 2px 2px 3px white;
-    
+#homepage div.navbar a:hover,
+a:active {
+  text-decoration: none;
+  color: black;
+  border-bottom: solid 2px #041004;
+  text-shadow: 2px 2px 3px white;
 }
-#homepage div.part1{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-   
-    width: 100%;
-    height: 800px;
-  
-    
+#homepage div.part1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  width: 100%;
+  height: 800px;
 }
 
-  
-  #homepage div.text1{
-    position: absolute;
-    width: 100%;
-    height: 50px;
-    color: black;
-    top: 50%;
-    text-align: center;
-    font-size: 25px;
-    font-weight: bold;
-    padding: 15px;
-    border: 2px solid black;
-    text-shadow: 2px 2px white;
-    letter-spacing: 1px;
-    
+#homepage div.text1 {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  color: black;
+  top: 50%;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 15px;
+  border: 2px solid black;
+  text-shadow: 2px 2px white;
+  letter-spacing: 1px;
 }
-
 
 #homepage div.container {
-    position: relative;
+  position: relative;
+}
 
-  }
-  
-  #homepage div.part2{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-      width: 100%;
-      height: 500px;
-      background-color: #F3D8C7;
-      border-top:1px solid white;
-      border-bottom: 1px solid white;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  }
-  #homepage div.part2 p {
-    border: solid 2px black;
-    padding: 50px;
-  }
-  #homepage div.part3{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-      width: 100%;
-      height: 500px;
-      background-color: #EFE5DC;
-      border-top:1px solid white;
-      border-bottom: 1px solid white;
-      display: flex;
-      justify-content: left;
-      align-items: center;
-  }
+#homepage div.part2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 100%;
+  height: 500px;
+  background-color: #f3d8c7;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#homepage div.part2 p {
+  border: solid 2px black;
+  padding: 50px;
+}
+#homepage div.part3 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 100%;
+  height: 500px;
+  background-color: #efe5dc;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
 
 #homepage div.part3 p {
   height: 200px;
-  width:50%;
+  width: 50%;
   border: solid 2px black;
   padding: 50px;
   display: flex;
@@ -116,71 +94,71 @@ body {}
   align-items: center;
   margin-right: 80px;
   margin-left: 60px;
-}   
-#homepage div.part4{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-      width: 100%;
-      height: 100px;
-      background-color: black;
-      border-top:1px solid white;
-      border-bottom: 1px solid white;
-      display: flex;
-      justify-content: left;
-      align-items: center;
-      opacity: 0.7;
-  }
-
-  #homepage div.part4 ul li{
-    float: right;
-    display:inline-block;
-    margin: 10px;
-    text-align: center;
-    list-style-type:none;  
 }
-#homepage div.part4 img{
-    width: 70px;
-    height: 70px;
+#homepage div.part4 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  opacity: 0.7;
+}
+
+#homepage div.part4 ul li {
+  float: right;
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  list-style-type: none;
+}
+#homepage div.part4 img {
+  width: 70px;
+  height: 70px;
 }
 
 #homepage div.part3 .container {
-    position: relative;
-    width: 50%;
-  }
-  
-  #homepage div.part3 .image {
-    opacity: 1;
-   
-    width: 400px;
-    height: 300px;
-    transition: .5s ease;
-    backface-visibility: hidden;
-    display: flex;
-      justify-content: center;
-      align-items: center;
-  }
-  
-  #homepage div.part3 .middle {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%)
-  }
-  
-  #homepage div.part3 .container:hover .image {
-    opacity: 0.3;
-  }
-  
-  #homepage div.part3 .container:hover .middle {
-    opacity: 1;
-  }
-  #homepage div.part3 .text {
-    background-color: #D0B8AC;
-    color:black;
-    font-size: 30px;
-    padding: 16px 32px;
-    font-weight: bold;
-    text-align: center;
-  }
+  position: relative;
+  width: 50%;
+}
+
+#homepage div.part3 .image {
+  opacity: 1;
+
+  width: 400px;
+  height: 300px;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#homepage div.part3 .middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+#homepage div.part3 .container:hover .image {
+  opacity: 0.3;
+}
+
+#homepage div.part3 .container:hover .middle {
+  opacity: 1;
+}
+#homepage div.part3 .text {
+  background-color: #d0b8ac;
+  color: black;
+  font-size: 30px;
+  padding: 16px 32px;
+  font-weight: bold;
+  text-align: center;
+}
