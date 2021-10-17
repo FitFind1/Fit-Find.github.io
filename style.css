@@ -173,3 +173,38 @@ a:active {
     font-weight: bold;
     text-align: center;
   }
+
+
+/* CONTACT CODE PLEASE DON'T TOUCH*************/
+  #contact div.navbar a:link, a:visited {
+    
+    text-decoration: none;
+    color:black;
+    padding: 10px;
+
+}
+
+#contact div.navbar a:hover,
+a:active {
+  text-decoration: none;
+  color: black;
+  border-bottom: solid 2px #041004;
+  text-shadow: 2px 2px 3px white;
+}
+
+/* COLLECTION CODE PLEASE DON'T TOUCH*************/
+#collection div.navbar a:link, a:visited {
+    
+    text-decoration: none;
+    color:black;
+    padding: 10px;
+
+}
+
+#collection div.navbar a:hover,
+a:active {
+  text-decoration: none;
+  color: black;
+  border-bottom: solid 2px #041004;
+  text-shadow: 2px 2px 3px white;
+}
