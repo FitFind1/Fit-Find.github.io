@@ -10,10 +10,13 @@ Colours
 - FFFFFF
 
 Iconography
+
 Mostly flat designs.
 
 Typography
 
 Links
+
+Links will not be underlined and will have a dark, and solid bottom border when hovered on
 
 Buttons
