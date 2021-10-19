@@ -14,11 +14,7 @@ Mostly flat designs.
 https://fonts.google.com/icons
 ---
 Typography
-For headings: Merriweather
-https://fonts.google.com/specimen/Merriweather#standard-styles
-For paragraphs/texts: Montserrat
-https://fonts.google.com/specimen/Montserrat
----
+
 Links
 Links will not be underlined and will have a dark, and solid bottom border when hovered on
 ---
