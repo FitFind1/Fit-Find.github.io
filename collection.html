@@ -129,7 +129,7 @@
       .prev:hover, .next:hover {
         background-color: rgba(0,0,0,0.8);
       }
-      .text {
+      .text a{
         color: #f2f2f2;
         font-size: 15px;
         padding: 8px 12px;
@@ -137,12 +137,13 @@
         bottom: 8px;
         width: 100%;
         text-align: center;
+        text-decoration: none;
       }
       .dot {
         cursor: pointer;
         height: 15px;
         width: 15px;
-        margin: 0 2px;
+        margin: 0 8px;
         background-color: #bbb;
         border-radius: 50%;
         display: inline-block;
@@ -367,16 +368,22 @@
         </p>
         <div class="slideshow-container">
           <div class="mySlides fade">
-            <img src="images home/image2.jpeg" style="width:100%";>
-            <div class="text">Caption Text</div>
+            <img src="collection.images/slideimage1.jpg" style="width:100%";>
+            <div class="text">
+              <a href="https://www.zara.com/ca/fr/blazer-avec-coudi%C3%A8res-contenant-de-la-laine-p02761268.html?v1=137551089&v2=1921805" target="_blank">Shop this Zara look</a>
+            </div>
           </div>
           <div class="mySlides fade">
-            <img src="collection.images/nike.jpg" style="width:100%";>
-            <div class="text">Caption Two</div>
+            <img src="collection.images/slideimage2.jpg" style="width:100%";>
+            <div class="text">
+              <a href="https://www.adidas.ca/fr/veste-tiro-winterized-sherpa/H33668.html" target="_blank">Shop this Adidas look</a> 
+            </div>
           </div>
           <div class="mySlides fade">
-            <img src="images home/image2.jpeg" style="width:100%";>
-            <div class="text">Caption Three</div>
+            <img src="collection.images/slideimage3.jpg" style="width:100%";>
+            <div class="text">
+              <a href="https://www.aritzia.com/en/product/pegu-skirt/79658.html?dwvar_79658_color=1274" target="_blank">Shop this Aritzia look</a>
+            </div>
           </div>
           <a class="prev" onclick="plusSlides(-1)">&#10094</a>
           <a class="next" onclick="plusSlides(1)">&#10095</a>
