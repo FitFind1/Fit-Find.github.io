@@ -119,11 +119,7 @@ a:active {
   justify-content: center;
   align-items: center;
 }
-#homepage div.part2 p {
-  font-family: 'Montserrat', sans-serif;
-  border: solid 2px black;
-  padding: 50px;
-}
+
 #homepage div.part3 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 100%;
@@ -323,17 +319,17 @@ div.part4 img {
   width: 50%;
 }
 
-#collection .slideshow-container {
+.slideshow-container {
   max-width: 500px;
   position: relative;
   margin: auto;
 }
 
-#collection .mySlides {
+.mySlides {
   display: none;
 }
 
-#collection .prev,
+.prev,
 .next {
   cursor: pointer;
   position: absolute;
@@ -349,21 +345,21 @@ div.part4 img {
   user-select: none;
 }
 
-#collection .box3 a {
+.box3 a {
   color: white;
   font-size: large;
 }
-#collection .next {
+.next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-#collection .prev:hover,
+.prev:hover,
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-#collection .text a {
+.text a {
   color: #f2f2f2;
   font-family: "Merriweather", serif;
   font-size: 15px;
@@ -375,13 +371,13 @@ div.part4 img {
   text-decoration: none;
 }
 
-#collection .text :hover {
+.text :hover {
   text-decoration: none;
   border-bottom: solid 2px white;
   text-shadow: 2px 2px 3px white;
 }
 
-#collection .dot {
+.dot {
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -392,23 +388,23 @@ div.part4 img {
   transition: background-color 0.6s ease;
 }
 
-#collection .active,
+.active,
 .dot:hover {
   background-color: #717171;
 }
 
-#collection .fade {
+.fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
 }
 
-#collection div.box3 {
+div.box3 {
   background-color: #efe5dc;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-#collection div.box3 p {
+div.box3 p {
   text-align: center;
   padding-left: 200px;
   padding-right: 200px;
