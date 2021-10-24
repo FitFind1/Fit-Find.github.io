@@ -498,31 +498,29 @@ a:active {
 }
 
 /*About page css**************************/
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
   #about p{
-		padding-left: 400px;
-		padding-right: 100px;
-		font-size: x-large;
+    padding-left: 400px;
+    padding-right: 100px;
+    font-size: x-large;
     font-family: 'Montserrat', sans-serif;
 	}
 
   #about h2{
     padding-left: 400px;
-		padding-right: 100px;
-		font-size: x-large;
+    padding-right: 100px;
+    font-size: x-large;
     font-family: 'Merriweather', serif; 
   }
 
   #about div.navbar {
-		position: sticky;
-		position: sticky;
-		top: 0;
-		background-color: #D0B8AC;
-		height: 80px;
-		width: 100%;
-	}
+    position: sticky;
+    position: sticky;
+    top: 0;
+    background-color: #D0B8AC;
+    height: 80px;
+    width: 100%;
+  }
   
   #about div.navbar a:hover,
     a:active {
@@ -532,39 +530,39 @@ a:active {
       text-shadow: 2px 2px 3px white;
     }
 
-	#about div.navbar ul li {
-		margin-top: -5px;
-		height: 40px;
-		width: 100px;
-		display: inline-block;
-		color: black;
-		text-align: center;
-		padding: 35px 100px;
-		text-decoration: none;
-	}
+#about div.navbar ul li {
+    margin-top: -5px;
+    height: 40px;
+    width: 100px;
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 35px 100px;
+    text-decoration: none;
+  }
 
-	#about #fit_icon {
-		float: left;
-		padding: 20px;
-	}
+#about #fit_icon {
+    float: left;
+    padding: 20px;
+  }
 
-	#about a {
-		color: black;
-		text-decoration: none;
-		font-size: x-large;
+  #about a {
+    color: black;
+    text-decoration: none;
+    font-size: x-large;
   }
 
   #about .center, .links {
-  background-color: white;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+    background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
 
   #about .sticky {
-  position: absolute;
-  top: 88px;
-  left: 8px;
-  width: 300px
+    position: absolute;
+    top: 88px;
+    left: 8px;
+    width: 300px
   }
