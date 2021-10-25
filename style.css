@@ -77,7 +77,7 @@ a:active {
   text-align: center;
   font-size: 35px;
   font-weight: bold;
-  padding: 45px;
+  padding: 35px;
   border: 5px solid white;
   letter-spacing: 1px;
   margin-left: 300px;
@@ -93,7 +93,7 @@ a:active {
   text-align: center;
   font-size: 35px;
   font-weight: bold;
-  padding: 15px;
+  padding: 10px;
   border: 5px solid white;
   letter-spacing: 1px;
   margin-left: 300px;
@@ -109,10 +109,10 @@ a:active {
     color: black;
     font-family: "Merriweather", serif;
     font-size: 15px;
-    width: 700px;
+    width: 500px;
     position: relative;
     bottom: 8px;  
-   text-align: left;
+    text-align: center;
     text-decoration: none;
   }
 
@@ -401,7 +401,7 @@ div.box3 {
   background-color: #efe5dc;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-div.box3 p {
+#collection div.box3 p {
   text-align: center;
   padding-left: 100px;
   padding-right: 200px;
@@ -451,25 +451,6 @@ div.box3 p {
 }
 
 #about #fit_icon {
-<<<<<<< HEAD
-  float: left;
-  padding: 20px;
-}
-#about .center,
-.links {
-  background-color: white;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-#about .sticky {
-  position: absolute;
-  top: 88px;
-  left: 8px;
-  width: 300px;
-=======
     float: left;
     padding: 20px;
   }
@@ -641,5 +622,4 @@ a:visited {
     margin-top: 10px;
     border: 1px solid black;
     padding: 0px;  
->>>>>>> 37876c5fa4dd6f8ca40caaaa5b2e2aeba77c5365
 }
