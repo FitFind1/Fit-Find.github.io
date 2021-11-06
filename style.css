@@ -439,11 +439,20 @@ div.box3 {
 #about p {
   padding-left: 400px;
   padding-right: 100px;
+  width: 1300px;
   font-size: x-large;
   font-family: "Montserrat", sans-serif;
 }
 
+
 #about h2 {
+  padding-left: 400px;
+  padding-right: 100px;
+  font-size: xx-large;
+  font-family: "Merriweather", serif;
+}
+
+#about h3 {
   padding-left: 400px;
   padding-right: 100px;
   font-size: x-large;
@@ -457,18 +466,30 @@ div.box3 {
   #about .center, .links {
     background-color: white;
     display: block;
-    margin-left: auto;
+    margin-left: 280px;
     margin-right: auto;
     width: 50%;
   }
 
   #about .sticky {
     position: absolute;
-    top: 88px;
+    top: 350px;
     left: 8px;
     width: 300px
   }
 
+  #about .avatar {
+    position: absolute;
+    top: 900px;
+    left: 100px;
+  }
+
+  #about .review {
+    position: absolute;
+    top: 1000px;
+    left: 1210px;
+    width: 300px
+  }
 
 /* CONTACT PAGE CODE PLEASE DON'T TOUCH*************/
 
