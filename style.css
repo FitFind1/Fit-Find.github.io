@@ -464,16 +464,18 @@ div.box3 {
     padding: 20px;
   }
   #about .center, .links {
-    background-color: white;
+    background-color:#EFE5DC;
     display: block;
+    height: 220px;
     margin-left: 280px;
     margin-right: auto;
-    width: 50%;
+    position: relative;
+    z-index: 100;
   }
 
-  #about .sticky {
+  #about .shoppingBag {
     position: absolute;
-    top: 350px;
+    top: 340px;
     left: 8px;
     width: 300px
   }
@@ -489,6 +491,45 @@ div.box3 {
     top: 1000px;
     left: 1210px;
     width: 300px
+  }
+
+  #about .avatar {
+    position: absolute;
+    top: 900px;
+    left: 100px;
+  }
+
+  #about .review {
+    position: absolute;
+    top: 1000px;
+    left: 1210px;
+    width: 300px
+  }
+  #colorstrip{
+    position: absolute;
+    top: 78px;
+    width: 95%; height: 220px;
+    background-color: #EFE5DC;
+    border-color:#EFE5DC;
+}
+
+  #whitestrip{
+    position: absolute;
+    top:78px;
+    left: 410px;
+    width:158px; height: 220px;
+    background-color: white;
+    border-color:white;
+    z-index: 100;
+  }
+  #whitestrip2{
+    position: absolute;
+    top:78px;
+    left: 985px;
+    width:158px; height: 220px;
+    background-color: white;
+    border-color:white;
+    z-index: 100;
   }
 
 /* CONTACT PAGE CODE PLEASE DON'T TOUCH*************/
